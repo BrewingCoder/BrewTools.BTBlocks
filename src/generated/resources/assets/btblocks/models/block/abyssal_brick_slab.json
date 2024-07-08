@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "btblocks:block/abyssal_bricks",
+    "side": "btblocks:block/abyssal_bricks",
+    "top": "btblocks:block/abyssal_bricks"
+  }
+}

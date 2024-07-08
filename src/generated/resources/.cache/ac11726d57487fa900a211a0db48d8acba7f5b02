@@ -1,0 +1,7 @@
+// 1.20.1	2024-07-08T14:38:10.1464181	Tags for minecraft:block mod id btblocks
+eb321461f1975c9c241cd1748c136d70dde6e11e data/forge/tags/blocks/stone.json
+b403456019c753468d0f43569d1dcd3496f3b7df data/minecraft/tags/blocks/mineable/pickaxe.json
+b403456019c753468d0f43569d1dcd3496f3b7df data/minecraft/tags/blocks/needs_stone_tool.json
+0e83ede49340ac11cf273c1f975a01b75f0a0bf2 data/minecraft/tags/blocks/slabs.json
+a69a98b98d97d3a365a17ee0d5d874b2393c6648 data/minecraft/tags/blocks/stairs.json
+c6af99d63f99b87a847f6aa928e7d2b836ae9263 data/minecraft/tags/blocks/walls.json

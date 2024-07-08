@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "btblocks:block/quarried_cobblestone",
+    "side": "btblocks:block/quarried_cobblestone",
+    "top": "btblocks:block/quarried_cobblestone"
+  }
+}

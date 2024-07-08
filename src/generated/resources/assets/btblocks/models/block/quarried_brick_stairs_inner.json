@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "btblocks:block/quarried_bricks",
+    "side": "btblocks:block/quarried_bricks",
+    "top": "btblocks:block/quarried_bricks"
+  }
+}

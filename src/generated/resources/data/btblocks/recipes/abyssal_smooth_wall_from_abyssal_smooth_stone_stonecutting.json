@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "btblocks:abyssal_smooth_stone"
+  },
+  "result": "btblocks:abyssal_smooth_wall"
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "btblocks:block/quarried_stone_slab"
+    },
+    "type=double": {
+      "model": "btblocks:block/quarried_stone"
+    },
+    "type=top": {
+      "model": "btblocks:block/quarried_stone_slab_top"
+    }
+  }
+}

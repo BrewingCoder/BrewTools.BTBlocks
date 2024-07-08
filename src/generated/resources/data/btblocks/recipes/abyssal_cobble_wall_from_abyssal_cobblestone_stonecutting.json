@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "btblocks:abyssal_cobblestone"
+  },
+  "result": "btblocks:abyssal_cobble_wall"
+}

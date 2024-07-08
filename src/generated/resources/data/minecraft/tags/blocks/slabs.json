@@ -1,0 +1,14 @@
+{
+  "values": [
+    "btblocks:abyssal_stone_slab",
+    "btblocks:abyssal_brick_slab",
+    "btblocks:abyssal_cracked_brick_slab",
+    "btblocks:abyssal_cobble_slab",
+    "btblocks:abyssal_smooth_slab",
+    "btblocks:quarried_stone_slab",
+    "btblocks:quarried_brick_slab",
+    "btblocks:quarried_cracked_brick_slab",
+    "btblocks:quarried_cobble_slab",
+    "btblocks:quarried_smooth_slab"
+  ]
+}

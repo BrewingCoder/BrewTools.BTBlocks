@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "btblocks:quarried_stone"
+  },
+  "result": "btblocks:quarried_stone_wall"
+}

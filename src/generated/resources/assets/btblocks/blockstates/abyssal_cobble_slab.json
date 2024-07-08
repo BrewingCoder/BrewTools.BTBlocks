@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "btblocks:block/abyssal_cobble_slab"
+    },
+    "type=double": {
+      "model": "btblocks:block/abyssal_cobblestone"
+    },
+    "type=top": {
+      "model": "btblocks:block/abyssal_cobble_slab_top"
+    }
+  }
+}
