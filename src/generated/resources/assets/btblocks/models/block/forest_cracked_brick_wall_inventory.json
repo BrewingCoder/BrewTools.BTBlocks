@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "btblocks:block/forest_bricks_cracked"
+  }
+}

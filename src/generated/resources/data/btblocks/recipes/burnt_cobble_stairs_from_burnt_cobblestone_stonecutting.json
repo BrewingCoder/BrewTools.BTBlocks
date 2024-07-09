@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "btblocks:burnt_cobblestone"
+  },
+  "result": "btblocks:burnt_cobble_stairs"
+}

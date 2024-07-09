@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "btblocks:burnt_stone"
+  },
+  "result": "btblocks:burnt_smooth_stone"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "btblocks:burnt_bricks"
+  },
+  "result": "btblocks:burnt_brick_wall"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "btblocks:forest_bricks_cracked"
+  },
+  "result": "btblocks:forest_cracked_brick_wall"
+}

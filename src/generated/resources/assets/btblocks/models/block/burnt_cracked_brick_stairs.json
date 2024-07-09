@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "btblocks:block/burnt_bricks_cracked",
+    "side": "btblocks:block/burnt_bricks_cracked",
+    "top": "btblocks:block/burnt_bricks_cracked"
+  }
+}

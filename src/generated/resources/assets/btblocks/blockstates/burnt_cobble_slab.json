@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "btblocks:block/burnt_cobble_slab"
+    },
+    "type=double": {
+      "model": "btblocks:block/burnt_cobblestone"
+    },
+    "type=top": {
+      "model": "btblocks:block/burnt_cobble_slab_top"
+    }
+  }
+}

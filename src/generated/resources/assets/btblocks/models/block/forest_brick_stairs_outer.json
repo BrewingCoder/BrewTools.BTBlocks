@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "btblocks:block/forest_bricks",
+    "side": "btblocks:block/forest_bricks",
+    "top": "btblocks:block/forest_bricks"
+  }
+}

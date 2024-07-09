@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "btblocks:forest_stone"
+  },
+  "result": "btblocks:forest_stone_slab"
+}
