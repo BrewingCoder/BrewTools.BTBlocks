@@ -9,6 +9,16 @@
     "btblocks:quarried_brick_slab",
     "btblocks:quarried_cracked_brick_slab",
     "btblocks:quarried_cobble_slab",
-    "btblocks:quarried_smooth_slab"
+    "btblocks:quarried_smooth_slab",
+    "btblocks:burnt_stone_slab",
+    "btblocks:burnt_brick_slab",
+    "btblocks:burnt_cracked_brick_slab",
+    "btblocks:burnt_cobble_slab",
+    "btblocks:burnt_smooth_slab",
+    "btblocks:forest_stone_slab",
+    "btblocks:forest_brick_slab",
+    "btblocks:forest_cracked_brick_slab",
+    "btblocks:forest_cobble_slab",
+    "btblocks:forest_smooth_slab"
   ]
 }

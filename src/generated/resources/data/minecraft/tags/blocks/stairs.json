@@ -9,6 +9,16 @@
     "btblocks:quarried_brick_stairs",
     "btblocks:quarried_cracked_brick_stairs",
     "btblocks:quarried_cobble_stairs",
-    "btblocks:quarried_smooth_stairs"
+    "btblocks:quarried_smooth_stairs",
+    "btblocks:burnt_stone_stairs",
+    "btblocks:burnt_brick_stairs",
+    "btblocks:burnt_cracked_brick_stairs",
+    "btblocks:burnt_cobble_stairs",
+    "btblocks:burnt_smooth_stairs",
+    "btblocks:forest_stone_stairs",
+    "btblocks:forest_brick_stairs",
+    "btblocks:forest_cracked_brick_stairs",
+    "btblocks:forest_cobble_stairs",
+    "btblocks:forest_smooth_stairs"
   ]
 }

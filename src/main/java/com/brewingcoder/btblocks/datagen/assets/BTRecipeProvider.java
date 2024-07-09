@@ -34,6 +34,8 @@ public class BTRecipeProvider extends RecipeProvider {
 
         stoneCuttingRecipe(writer,Blocks.STONE,ModBlocks.ABYSSAL_STONE.get(),9);
         stoneCuttingRecipe(writer,Blocks.STONE,ModBlocks.QUARRIED_STONE.get(),9);
+        stoneCuttingRecipe(writer,Blocks.STONE,ModBlocks.BURNT_STONE.get(),9);
+        stoneCuttingRecipe(writer,Blocks.STONE,ModBlocks.FOREST_STONE.get(),9);
 
         stoneCuttingRecipe(writer,ModBlocks.ABYSSAL_STONE.get(), ModBlocks.ABYSSAL_BRICKS.get());
         stoneCuttingRecipe(writer,ModBlocks.ABYSSAL_STONE.get(), ModBlocks.ABYSSAL_BRICKS_CRACKED.get());
@@ -80,6 +82,53 @@ public class BTRecipeProvider extends RecipeProvider {
         stoneCuttingRecipe(writer,ModBlocks.QUARRIED_BRICKS_CRACKED.get(), ModBlocks.QUARRIED_BRICKS_CRACKED_WALL.get());
         stoneCuttingRecipe(writer,ModBlocks.QUARRIED_COBBLE.get(), ModBlocks.QUARRIED_COBBLE_WALL.get());
         stoneCuttingRecipe(writer,ModBlocks.QUARRIED_SMOOTH.get(), ModBlocks.QUARRIED_SMOOTH_WALL.get());
+
+        stoneCuttingRecipe(writer, ModBlocks.BURNT_STONE.get(), ModBlocks.BURNT_BRICKS.get());
+        stoneCuttingRecipe(writer, ModBlocks.BURNT_STONE.get(), ModBlocks.BURNT_BRICKS_CRACKED.get());
+        stoneCuttingRecipe(writer, ModBlocks.BURNT_STONE.get(), ModBlocks.BURNT_COBBLE.get());
+        stoneCuttingRecipe(writer, ModBlocks.BURNT_STONE.get(), ModBlocks.BURNT_SMOOTH.get());
+
+        stoneCuttingRecipe(writer, ModBlocks.BURNT_STONE.get(), ModBlocks.BURNT_STONE_SLAB.get(),2);
+        stoneCuttingRecipe(writer, ModBlocks.BURNT_COBBLE.get(), ModBlocks.BURNT_COBBLE_SLAB.get(),2);
+        stoneCuttingRecipe(writer, ModBlocks.BURNT_BRICKS.get(), ModBlocks.BURNT_BRICK_SLAB.get(),2);
+        stoneCuttingRecipe(writer, ModBlocks.BURNT_BRICKS_CRACKED.get(), ModBlocks.BURNT_BRICK_CRACKED_SLAB.get(),2);
+        stoneCuttingRecipe(writer, ModBlocks.BURNT_SMOOTH.get(), ModBlocks.BURNT_SMOOTH_SLAB.get(),2);
+
+        stoneCuttingRecipe(writer,ModBlocks.BURNT_STONE.get(), ModBlocks.BURNT_STONE_STAIRS.get());
+        stoneCuttingRecipe(writer,ModBlocks.BURNT_BRICKS.get(), ModBlocks.BURNT_BRICKS_STAIRS.get());
+        stoneCuttingRecipe(writer,ModBlocks.BURNT_BRICKS_CRACKED.get(), ModBlocks.BURNT_BRICKS_CRACKED_STAIRS.get());
+        stoneCuttingRecipe(writer,ModBlocks.BURNT_COBBLE.get(), ModBlocks.BURNT_COBBLE_STAIRS.get());
+        stoneCuttingRecipe(writer,ModBlocks.BURNT_SMOOTH.get(), ModBlocks.BURNT_SMOOTH_STAIRS.get());
+
+        stoneCuttingRecipe(writer,ModBlocks.BURNT_STONE.get(), ModBlocks.BURNT_STONE_WALL.get());
+        stoneCuttingRecipe(writer,ModBlocks.BURNT_BRICKS.get(), ModBlocks.BURNT_BRICKS_WALL.get());
+        stoneCuttingRecipe(writer,ModBlocks.BURNT_BRICKS_CRACKED.get(), ModBlocks.BURNT_BRICKS_CRACKED_WALL.get());
+        stoneCuttingRecipe(writer,ModBlocks.BURNT_COBBLE.get(), ModBlocks.BURNT_COBBLE_WALL.get());
+        stoneCuttingRecipe(writer,ModBlocks.BURNT_SMOOTH.get(), ModBlocks.BURNT_SMOOTH_WALL.get());
+
+        stoneCuttingRecipe(writer, ModBlocks.FOREST_STONE.get(), ModBlocks.FOREST_BRICKS.get());
+        stoneCuttingRecipe(writer, ModBlocks.FOREST_STONE.get(), ModBlocks.FOREST_BRICKS_CRACKED.get());
+        stoneCuttingRecipe(writer, ModBlocks.FOREST_STONE.get(), ModBlocks.FOREST_COBBLE.get());
+        stoneCuttingRecipe(writer, ModBlocks.FOREST_STONE.get(), ModBlocks.FOREST_SMOOTH.get());
+
+        stoneCuttingRecipe(writer, ModBlocks.FOREST_STONE.get(), ModBlocks.FOREST_STONE_SLAB.get(),2);
+        stoneCuttingRecipe(writer, ModBlocks.FOREST_COBBLE.get(), ModBlocks.FOREST_COBBLE_SLAB.get(),2);
+        stoneCuttingRecipe(writer, ModBlocks.FOREST_BRICKS.get(), ModBlocks.FOREST_BRICK_SLAB.get(),2);
+        stoneCuttingRecipe(writer, ModBlocks.FOREST_BRICKS_CRACKED.get(), ModBlocks.FOREST_BRICK_CRACKED_SLAB.get(),2);
+        stoneCuttingRecipe(writer, ModBlocks.FOREST_SMOOTH.get(), ModBlocks.FOREST_SMOOTH_SLAB.get(),2);
+
+        stoneCuttingRecipe(writer,ModBlocks.FOREST_STONE.get(), ModBlocks.FOREST_STONE_STAIRS.get());
+        stoneCuttingRecipe(writer,ModBlocks.FOREST_BRICKS.get(), ModBlocks.FOREST_BRICKS_STAIRS.get());
+        stoneCuttingRecipe(writer,ModBlocks.FOREST_BRICKS_CRACKED.get(), ModBlocks.FOREST_BRICKS_CRACKED_STAIRS.get());
+        stoneCuttingRecipe(writer,ModBlocks.FOREST_COBBLE.get(), ModBlocks.FOREST_COBBLE_STAIRS.get());
+        stoneCuttingRecipe(writer,ModBlocks.FOREST_SMOOTH.get(), ModBlocks.FOREST_SMOOTH_STAIRS.get());
+
+        stoneCuttingRecipe(writer,ModBlocks.FOREST_STONE.get(), ModBlocks.FOREST_STONE_WALL.get());
+        stoneCuttingRecipe(writer,ModBlocks.FOREST_BRICKS.get(), ModBlocks.FOREST_BRICKS_WALL.get());
+        stoneCuttingRecipe(writer,ModBlocks.FOREST_BRICKS_CRACKED.get(), ModBlocks.FOREST_BRICKS_CRACKED_WALL.get());
+        stoneCuttingRecipe(writer,ModBlocks.FOREST_COBBLE.get(), ModBlocks.FOREST_COBBLE_WALL.get());
+        stoneCuttingRecipe(writer,ModBlocks.FOREST_SMOOTH.get(), ModBlocks.FOREST_SMOOTH_WALL.get());
+
 
     }
 

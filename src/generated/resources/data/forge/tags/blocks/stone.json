@@ -1,6 +1,8 @@
 {
   "values": [
     "btblocks:abyssal_stone",
-    "btblocks:quarried_stone"
+    "btblocks:quarried_stone",
+    "btblocks:burnt_stone",
+    "btblocks:forest_stone"
   ]
 }

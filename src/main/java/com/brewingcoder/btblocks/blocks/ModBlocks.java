@@ -6,6 +6,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.material.MapColor;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -26,9 +27,6 @@ public class ModBlocks {
     public static final RegistryObject<Block> QUARRIED_BRICKS_CRACKED = register("quarried_bricks_cracked",ModBlocks::StoneBlock);
     public static final RegistryObject<Block> QUARRIED_COBBLE = register("quarried_cobblestone",ModBlocks::CobbleBlock);
     public static final RegistryObject<Block> QUARRIED_SMOOTH = register("quarried_smooth_stone",ModBlocks::SmoothBlock);
-
-    public static final RegistryObject<Block> BURNT_STONE = register("burnt_stone",ModBlocks::StoneBlock);
-
 
     public static final RegistryObject<StairBlock> ABYSSAL_STONE_STAIRS = register("abyssal_stone_stairs", ()-> MakeStairFromParent(ABYSSAL_STONE));
     public static final RegistryObject<StairBlock> ABYSSAL_BRICKS_STAIRS = register("abyssal_brick_stairs", ()-> MakeStairFromParent(ABYSSAL_BRICKS));
@@ -65,6 +63,56 @@ public class ModBlocks {
     public static final RegistryObject<WallBlock> QUARRIED_BRICKS_CRACKED_WALL = register("quarried_cracked_brick_wall",()->MakeWallFromParent(QUARRIED_BRICKS_CRACKED));
     public static final RegistryObject<WallBlock> QUARRIED_COBBLE_WALL = register("quarried_cobble_wall",()->MakeWallFromParent(QUARRIED_COBBLE));
     public static final RegistryObject<WallBlock> QUARRIED_SMOOTH_WALL = register("quarried_smooth_wall", ()->MakeWallFromParent(QUARRIED_SMOOTH));
+
+    public static final RegistryObject<Block> BURNT_STONE = register("burnt_stone",ModBlocks::StoneBlock);
+    public static final RegistryObject<Block> BURNT_BRICKS = register("burnt_bricks",ModBlocks::StoneBlock);
+    public static final RegistryObject<Block> BURNT_BRICKS_CRACKED = register("burnt_bricks_cracked",ModBlocks::StoneBlock);
+    public static final RegistryObject<Block> BURNT_COBBLE = register("burnt_cobblestone",ModBlocks::CobbleBlock);
+    public static final RegistryObject<Block> BURNT_SMOOTH = register("burnt_smooth_stone",ModBlocks::SmoothBlock);
+
+    public static final RegistryObject<StairBlock> BURNT_STONE_STAIRS = register("burnt_stone_stairs",()->MakeStairFromParent(BURNT_STONE));
+    public static final RegistryObject<StairBlock> BURNT_BRICKS_STAIRS = register("burnt_brick_stairs", ()->MakeStairFromParent(BURNT_BRICKS));
+    public static final RegistryObject<StairBlock> BURNT_BRICKS_CRACKED_STAIRS = register("burnt_cracked_brick_stairs",()->MakeStairFromParent(BURNT_BRICKS_CRACKED));
+    public static final RegistryObject<StairBlock> BURNT_COBBLE_STAIRS = register("burnt_cobble_stairs",()->MakeStairFromParent(BURNT_COBBLE));
+    public static final RegistryObject<StairBlock> BURNT_SMOOTH_STAIRS = register("burnt_smooth_stairs",()->MakeStairFromParent(BURNT_SMOOTH));
+
+    public static final RegistryObject<SlabBlock> BURNT_STONE_SLAB = register("burnt_stone_slab",()->MakeSlabFromParent(BURNT_STONE));
+    public static final RegistryObject<SlabBlock> BURNT_BRICK_SLAB = register("burnt_brick_slab", ()->MakeSlabFromParent(BURNT_BRICKS));
+    public static final RegistryObject<SlabBlock> BURNT_BRICK_CRACKED_SLAB = register("burnt_cracked_brick_slab",()->MakeSlabFromParent(BURNT_BRICKS_CRACKED));
+    public static final RegistryObject<SlabBlock> BURNT_COBBLE_SLAB = register("burnt_cobble_slab",()->MakeSlabFromParent(BURNT_COBBLE));
+    public static final RegistryObject<SlabBlock> BURNT_SMOOTH_SLAB = register("burnt_smooth_slab",()->MakeSlabFromParent(BURNT_SMOOTH));
+
+    public static final RegistryObject<WallBlock> BURNT_STONE_WALL = register("burnt_stone_wall",()->MakeWallFromParent(BURNT_STONE));
+    public static final RegistryObject<WallBlock> BURNT_BRICKS_WALL = register("burnt_brick_wall",()->MakeWallFromParent(BURNT_BRICKS));
+    public static final RegistryObject<WallBlock> BURNT_BRICKS_CRACKED_WALL = register("burnt_cracked_brick_wall",()->MakeWallFromParent(BURNT_BRICKS_CRACKED));
+    public static final RegistryObject<WallBlock> BURNT_COBBLE_WALL = register("burnt_cobble_wall",()->MakeWallFromParent(BURNT_COBBLE));
+    public static final RegistryObject<WallBlock> BURNT_SMOOTH_WALL = register("burnt_smooth_wall",()->MakeWallFromParent(BURNT_SMOOTH));
+
+    public static final RegistryObject<Block> FOREST_STONE = register("forest_stone", ModBlocks::StoneBlock);
+    public static final RegistryObject<Block> FOREST_BRICKS = register("forest_bricks", ModBlocks::StoneBlock);
+    public static final RegistryObject<Block> FOREST_BRICKS_CRACKED = register("forest_bricks_cracked", ModBlocks::StoneBlock);
+    public static final RegistryObject<Block> FOREST_COBBLE = register("forest_cobblestone", ModBlocks::CobbleBlock);
+    public static final RegistryObject<Block> FOREST_SMOOTH = register("forest_smooth_stone", ModBlocks::SmoothBlock);
+
+    public static final RegistryObject<StairBlock> FOREST_STONE_STAIRS = register("forest_stone_stairs",()->MakeStairFromParent(FOREST_STONE));
+    public static final RegistryObject<StairBlock> FOREST_BRICKS_STAIRS = register("forest_brick_stairs", ()->MakeStairFromParent(FOREST_BRICKS));
+    public static final RegistryObject<StairBlock> FOREST_BRICKS_CRACKED_STAIRS = register("forest_cracked_brick_stairs",()->MakeStairFromParent(FOREST_BRICKS_CRACKED));
+    public static final RegistryObject<StairBlock> FOREST_COBBLE_STAIRS = register("forest_cobble_stairs",()->MakeStairFromParent(FOREST_COBBLE));
+    public static final RegistryObject<StairBlock> FOREST_SMOOTH_STAIRS = register("forest_smooth_stairs",()->MakeStairFromParent(FOREST_SMOOTH));
+
+    public static final RegistryObject<SlabBlock> FOREST_STONE_SLAB = register("forest_stone_slab",()->MakeSlabFromParent(FOREST_STONE));
+    public static final RegistryObject<SlabBlock> FOREST_BRICK_SLAB = register("forest_brick_slab", ()->MakeSlabFromParent(FOREST_BRICKS));
+    public static final RegistryObject<SlabBlock> FOREST_BRICK_CRACKED_SLAB = register("forest_cracked_brick_slab",()->MakeSlabFromParent(FOREST_BRICKS_CRACKED));
+    public static final RegistryObject<SlabBlock> FOREST_COBBLE_SLAB = register("forest_cobble_slab",()->MakeSlabFromParent(FOREST_COBBLE));
+    public static final RegistryObject<SlabBlock> FOREST_SMOOTH_SLAB = register("forest_smooth_slab",()->MakeSlabFromParent(FOREST_SMOOTH));
+
+    public static final RegistryObject<WallBlock> FOREST_STONE_WALL = register("forest_stone_wall",()->MakeWallFromParent(FOREST_STONE));
+    public static final RegistryObject<WallBlock> FOREST_BRICKS_WALL = register("forest_brick_wall",()->MakeWallFromParent(FOREST_BRICKS));
+    public static final RegistryObject<WallBlock> FOREST_BRICKS_CRACKED_WALL = register("forest_cracked_brick_wall",()->MakeWallFromParent(FOREST_BRICKS_CRACKED));
+    public static final RegistryObject<WallBlock> FOREST_COBBLE_WALL = register("forest_cobble_wall",()->MakeWallFromParent(FOREST_COBBLE));
+    public static final RegistryObject<WallBlock> FOREST_SMOOTH_WALL = register("forest_smooth_wall",()->MakeWallFromParent(FOREST_SMOOTH));
+
+    
 
 
     private static WallBlock MakeWallFromParent(RegistryObject<? extends Block> parent){

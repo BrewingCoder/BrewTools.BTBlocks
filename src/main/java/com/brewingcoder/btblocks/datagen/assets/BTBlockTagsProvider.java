@@ -28,8 +28,10 @@ public class BTBlockTagsProvider extends BlockTagsProvider {
 
             String key = block.getId().toString();
 
-            if( key.equals(ModBlocks.ABYSSAL_STONE.getId().toString()) ||
-                key.equals(ModBlocks.QUARRIED_STONE.getId().toString())
+            if(     key.equals(ModBlocks.ABYSSAL_STONE.getId().toString()) ||
+                    key.equals(ModBlocks.QUARRIED_STONE.getId().toString()) ||
+                    key.equals(ModBlocks.BURNT_STONE.getId().toString()) ||
+                    key.equals(ModBlocks.FOREST_STONE.getId().toString())
             ){
                 tag(Tags.Blocks.STONE).add(block.get());
             }
