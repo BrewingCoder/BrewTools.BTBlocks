@@ -1,0 +1,24 @@
+{
+  "values": [
+    "btblocks:abyssal_stone_fence",
+    "btblocks:abyssal_bricks_fence",
+    "btblocks:abyssal_cracked_bricks_fence",
+    "btblocks:abyssal_cobble_fence",
+    "btblocks:abyssal_smooth_fence",
+    "btblocks:quarried_stone_fence",
+    "btblocks:quarried_bricks_fence",
+    "btblocks:quarried_cracked_bricks_fence",
+    "btblocks:quarried_cobble_fence",
+    "btblocks:quarried_smooth_fence",
+    "btblocks:burnt_stone_fence",
+    "btblocks:burnt_bricks_fence",
+    "btblocks:burnt_cracked_bricks_fence",
+    "btblocks:burnt_cobble_fence",
+    "btblocks:burnt_smooth_fence",
+    "btblocks:forest_stone_fence",
+    "btblocks:forest_bricks_fence",
+    "btblocks:forest_cracked_bricks_fence",
+    "btblocks:forest_cobble_fence",
+    "btblocks:forest_smooth_fence"
+  ]
+}

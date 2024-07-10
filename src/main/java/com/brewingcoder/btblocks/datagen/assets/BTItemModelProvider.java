@@ -86,6 +86,50 @@ public class BTItemModelProvider extends ItemModelProvider {
         BlockModel(ModBlocks.FOREST_COBBLE_WALL,"inventory");
         BlockModel(ModBlocks.FOREST_SMOOTH_WALL,"inventory");
 
+        BlockModel(ModBlocks.ABYSSAL_STONE_FENCE,"inventory");
+        BlockModel(ModBlocks.ABYSSAL_STONE_FENCE_GATE,"inventory");
+        BlockModel(ModBlocks.ABYSSAL_BRICKS_FENCE,"inventory");
+        BlockModel(ModBlocks.ABYSSAL_BRICKS_FENCE_GATE,"inventory");
+        BlockModel(ModBlocks.ABYSSAL_BRICKS_CRACKED_FENCE,"inventory");
+        BlockModel(ModBlocks.ABYSSAL_BRICKS_CRACKED_FENCE_GATE,"inventory");
+        BlockModel(ModBlocks.ABYSSAL_COBBLE_FENCE,"inventory");
+        BlockModel(ModBlocks.ABYSSAL_COBBLE_FENCE_GATE,"inventory");
+        BlockModel(ModBlocks.ABYSSAL_SMOOTH_FENCE,"inventory");
+        BlockModel(ModBlocks.ABYSSAL_SMOOTH_FENCE_GATE,"inventory");
+
+        BlockModel(ModBlocks.QUARRIED_STONE_FENCE,"inventory");
+        BlockModel(ModBlocks.QUARRIED_STONE_FENCE_GATE,"inventory");
+        BlockModel(ModBlocks.QUARRIED_BRICKS_FENCE,"inventory");
+        BlockModel(ModBlocks.QUARRIED_BRICKS_FENCE_GATE,"inventory");
+        BlockModel(ModBlocks.QUARRIED_BRICKS_CRACKED_FENCE,"inventory");
+        BlockModel(ModBlocks.QUARRIED_BRICKS_CRACKED_FENCE_GATE,"inventory");
+        BlockModel(ModBlocks.QUARRIED_COBBLE_FENCE,"inventory");
+        BlockModel(ModBlocks.QUARRIED_COBBLE_FENCE_GATE,"inventory");
+        BlockModel(ModBlocks.QUARRIED_SMOOTH_FENCE,"inventory");
+        BlockModel(ModBlocks.QUARRIED_SMOOTH_FENCE_GATE,"inventory");
+
+        BlockModel(ModBlocks.BURNT_STONE_FENCE,"inventory");
+        BlockModel(ModBlocks.BURNT_STONE_FENCE_GATE,"inventory");
+        BlockModel(ModBlocks.BURNT_BRICKS_FENCE,"inventory");
+        BlockModel(ModBlocks.BURNT_BRICKS_FENCE_GATE,"inventory");
+        BlockModel(ModBlocks.BURNT_BRICKS_CRACKED_FENCE,"inventory");
+        BlockModel(ModBlocks.BURNT_BRICKS_CRACKED_FENCE_GATE,"inventory");
+        BlockModel(ModBlocks.BURNT_COBBLE_FENCE,"inventory");
+        BlockModel(ModBlocks.BURNT_COBBLE_FENCE_GATE,"inventory");
+        BlockModel(ModBlocks.BURNT_SMOOTH_FENCE,"inventory");
+        BlockModel(ModBlocks.BURNT_SMOOTH_FENCE_GATE,"inventory");
+
+        BlockModel(ModBlocks.FOREST_STONE_FENCE,"inventory");
+        BlockModel(ModBlocks.FOREST_STONE_FENCE_GATE,"inventory");
+        BlockModel(ModBlocks.FOREST_BRICKS_FENCE,"inventory");
+        BlockModel(ModBlocks.FOREST_BRICKS_FENCE_GATE,"inventory");
+        BlockModel(ModBlocks.FOREST_BRICKS_CRACKED_FENCE,"inventory");
+        BlockModel(ModBlocks.FOREST_BRICKS_CRACKED_FENCE_GATE,"inventory");
+        BlockModel(ModBlocks.FOREST_COBBLE_FENCE,"inventory");
+        BlockModel(ModBlocks.FOREST_COBBLE_FENCE_GATE,"inventory");
+        BlockModel(ModBlocks.FOREST_SMOOTH_FENCE,"inventory");
+        BlockModel(ModBlocks.FOREST_SMOOTH_FENCE_GATE,"inventory");
+
 
 
     }

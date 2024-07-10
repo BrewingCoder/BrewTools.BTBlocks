@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_quarried_cobblestone": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "btblocks:quarried_cobblestone"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "btblocks:quarried_cobble_fence_from_quarried_cobblestone_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_quarried_cobblestone",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "btblocks:quarried_cobble_fence_from_quarried_cobblestone_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

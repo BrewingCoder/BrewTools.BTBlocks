@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "btblocks:abyssal_bricks"
+  },
+  "result": "btblocks:abyssal_bricks_fence"
+}

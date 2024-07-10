@@ -4,10 +4,7 @@ import com.brewingcoder.btblocks.BTBlocks;
 import com.brewingcoder.btblocks.blocks.ModBlocks;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.SlabBlock;
-import net.minecraft.world.level.block.StairBlock;
-import net.minecraft.world.level.block.WallBlock;
+import net.minecraft.world.level.block.*;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.RegistryObject;
@@ -115,8 +112,63 @@ public class BTBlockStateProvider extends BlockStateProvider {
         makeStairs(ModBlocks.FOREST_COBBLE_STAIRS, ModBlocks.FOREST_COBBLE);
         makeStairs(ModBlocks.FOREST_SMOOTH_STAIRS, ModBlocks.FOREST_SMOOTH);
 
+        makeFence(ModBlocks.ABYSSAL_STONE_FENCE, ModBlocks.ABYSSAL_STONE);
+        makeFenceGate(ModBlocks.ABYSSAL_STONE_FENCE_GATE, ModBlocks.ABYSSAL_STONE);
+        makeFence(ModBlocks.ABYSSAL_BRICKS_FENCE, ModBlocks.ABYSSAL_BRICKS);
+        makeFenceGate(ModBlocks.ABYSSAL_BRICKS_FENCE_GATE, ModBlocks.ABYSSAL_BRICKS);
+        makeFence(ModBlocks.ABYSSAL_BRICKS_CRACKED_FENCE, ModBlocks.ABYSSAL_BRICKS_CRACKED);
+        makeFenceGate(ModBlocks.ABYSSAL_BRICKS_CRACKED_FENCE_GATE, ModBlocks.ABYSSAL_BRICKS_CRACKED);
+        makeFence(ModBlocks.ABYSSAL_COBBLE_FENCE, ModBlocks.ABYSSAL_COBBLE);
+        makeFenceGate(ModBlocks.ABYSSAL_COBBLE_FENCE_GATE, ModBlocks.ABYSSAL_COBBLE);
+        makeFence(ModBlocks.ABYSSAL_SMOOTH_FENCE, ModBlocks.ABYSSAL_SMOOTH);
+        makeFenceGate(ModBlocks.ABYSSAL_SMOOTH_FENCE_GATE, ModBlocks.ABYSSAL_SMOOTH);
+
+        makeFence(ModBlocks.QUARRIED_STONE_FENCE, ModBlocks.QUARRIED_STONE);
+        makeFenceGate(ModBlocks.QUARRIED_STONE_FENCE_GATE, ModBlocks.QUARRIED_STONE);
+        makeFence(ModBlocks.QUARRIED_BRICKS_FENCE, ModBlocks.QUARRIED_BRICKS);
+        makeFenceGate(ModBlocks.QUARRIED_BRICKS_FENCE_GATE, ModBlocks.QUARRIED_BRICKS);
+        makeFence(ModBlocks.QUARRIED_BRICKS_CRACKED_FENCE, ModBlocks.QUARRIED_BRICKS_CRACKED);
+        makeFenceGate(ModBlocks.QUARRIED_BRICKS_CRACKED_FENCE_GATE, ModBlocks.QUARRIED_BRICKS_CRACKED);
+        makeFence(ModBlocks.QUARRIED_COBBLE_FENCE, ModBlocks.QUARRIED_COBBLE);
+        makeFenceGate(ModBlocks.QUARRIED_COBBLE_FENCE_GATE, ModBlocks.QUARRIED_COBBLE);
+        makeFence(ModBlocks.QUARRIED_SMOOTH_FENCE, ModBlocks.QUARRIED_SMOOTH);
+        makeFenceGate(ModBlocks.QUARRIED_SMOOTH_FENCE_GATE, ModBlocks.QUARRIED_SMOOTH);
+
+        makeFence(ModBlocks.BURNT_STONE_FENCE, ModBlocks.BURNT_STONE);
+        makeFenceGate(ModBlocks.BURNT_STONE_FENCE_GATE, ModBlocks.BURNT_STONE);
+        makeFence(ModBlocks.BURNT_BRICKS_FENCE, ModBlocks.BURNT_BRICKS);
+        makeFenceGate(ModBlocks.BURNT_BRICKS_FENCE_GATE, ModBlocks.BURNT_BRICKS);
+        makeFence(ModBlocks.BURNT_BRICKS_CRACKED_FENCE, ModBlocks.BURNT_BRICKS_CRACKED);
+        makeFenceGate(ModBlocks.BURNT_BRICKS_CRACKED_FENCE_GATE, ModBlocks.BURNT_BRICKS_CRACKED);
+        makeFence(ModBlocks.BURNT_COBBLE_FENCE, ModBlocks.BURNT_COBBLE);
+        makeFenceGate(ModBlocks.BURNT_COBBLE_FENCE_GATE, ModBlocks.BURNT_COBBLE);
+        makeFence(ModBlocks.BURNT_SMOOTH_FENCE, ModBlocks.BURNT_SMOOTH);
+        makeFenceGate(ModBlocks.BURNT_SMOOTH_FENCE_GATE, ModBlocks.BURNT_SMOOTH);
+
+        makeFence(ModBlocks.FOREST_STONE_FENCE, ModBlocks.FOREST_STONE);
+        makeFenceGate(ModBlocks.FOREST_STONE_FENCE_GATE, ModBlocks.FOREST_STONE);
+        makeFence(ModBlocks.FOREST_BRICKS_FENCE, ModBlocks.FOREST_BRICKS);
+        makeFenceGate(ModBlocks.FOREST_BRICKS_FENCE_GATE, ModBlocks.FOREST_BRICKS);
+        makeFence(ModBlocks.FOREST_BRICKS_CRACKED_FENCE, ModBlocks.FOREST_BRICKS_CRACKED);
+        makeFenceGate(ModBlocks.FOREST_BRICKS_CRACKED_FENCE_GATE, ModBlocks.FOREST_BRICKS_CRACKED);
+        makeFence(ModBlocks.FOREST_COBBLE_FENCE, ModBlocks.FOREST_COBBLE);
+        makeFenceGate(ModBlocks.FOREST_COBBLE_FENCE_GATE, ModBlocks.FOREST_COBBLE);
+        makeFence(ModBlocks.FOREST_SMOOTH_FENCE, ModBlocks.FOREST_SMOOTH);
+        makeFenceGate(ModBlocks.FOREST_SMOOTH_FENCE_GATE, ModBlocks.FOREST_SMOOTH);
+
     }
 
+    private void makeFence(RegistryObject<FenceBlock> fb, RegistryObject<Block> parent){
+        ResourceLocation loc = modLoc("block/" + parent.getId().getPath());
+        fenceBlock(fb.get(),loc);
+        models().fenceInventory(fb.getId().getPath() + "_inventory",loc);
+    }
+
+    private void makeFenceGate(RegistryObject<FenceGateBlock> fg, RegistryObject<Block> parent){
+        ResourceLocation loc = modLoc("block/" + parent.getId().getPath());
+        fenceGateBlock(fg.get(),loc);
+        models().fenceInventory(fg.getId().getPath() + "_inventory",loc);
+    }
 
     private void makeWall(RegistryObject<WallBlock> wb, RegistryObject<Block> parent){
         ResourceLocation loc = modLoc("block/" + parent.getId().getPath());

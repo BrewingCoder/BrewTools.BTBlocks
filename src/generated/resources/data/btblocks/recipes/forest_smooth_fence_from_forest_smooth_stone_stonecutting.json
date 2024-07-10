@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "btblocks:forest_smooth_stone"
+  },
+  "result": "btblocks:forest_smooth_fence"
+}
